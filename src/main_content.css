@@ -1,0 +1,33 @@
+#img_container
+{
+    width: 150px;
+    height: 150px;
+    margin-top: 30vh;
+    opacity: 0;
+    cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference)
+{
+    #img_container
+    {
+        animation: img-spin infinite 5s linear;
+    }
+}
+
+@keyframes img-spin 
+{
+    from
+    {
+        transform: rotateY(0deg);
+    }
+    to
+    {
+        transform: rotateY(360deg);
+    }
+}
+
+#main
+{
+    text-align: center;
+}

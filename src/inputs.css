@@ -1,0 +1,36 @@
+#p_id
+{
+    text-align: center;
+}
+
+#input_id
+{
+    width: 300px;
+    height: 50px;
+}
+
+#sub_det
+{
+    width: 200px;
+}
+
+#tbl_input
+{
+    text-align: center;
+}
+
+#div_input
+{
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+    right: 50%;
+}
+
+#input_ul
+{
+    width: 100%;
+    justify-content: center;
+    
+}

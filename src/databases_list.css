@@ -1,0 +1,17 @@
+#data_tbl
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.out_btns
+{
+    float: right;
+    border-radius: 20px;
+    border: solid 1px;
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
